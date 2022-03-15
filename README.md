@@ -3,7 +3,8 @@
 Client python permettant d'interroger l'openData du gouvernement sur le prix du carburant.
 
 ** Changement de source le 14/03/2022**
-https://www.prix-carburants.gouv.fr/
+
+https://www.prix-carburants.gouv.fr/ ==> https://www.data.gouv.fr/fr/datasets/r/087dfcbc-8119-4814-8412-d0a387fac561
 
 Le client permet de :
  - Trouver les stations les plus proches dans un cercle de X km configurable a partir de votre adresse defini dans home assistant
