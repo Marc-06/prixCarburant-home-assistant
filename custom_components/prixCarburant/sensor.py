@@ -91,6 +91,7 @@ class PrixCarburant(Entity):
         self._state = self.station.gazoil['valeur']
         self.lastUpdate=self.client.lastUpdate
         self._unique_id = "PrixCarburant_" + self.station.id
+        self._attr_state_class = SensorStateClass.MEASUREMENT  ##test
 
 
     @property
